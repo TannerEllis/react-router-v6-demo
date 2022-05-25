@@ -118,7 +118,7 @@ a {
 
 .product-list {
   display: flex;
-  width: 100%;
+  width: 65%;
   height: 800px;
   display: flex;
   justify-content: center;
