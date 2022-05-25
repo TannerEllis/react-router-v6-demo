@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route, Link, Outlet } from "react-router-dom";
 import Login from "./Login";
 import Home from "./Home";
+import Error from "./Error";
 import Products from "./Components/Products";
 import Search from "./Components/Search";
 import ProductList from "./Components/ProductList";
@@ -22,6 +23,7 @@ function App() {
           <Route path="add" element={<AddProduct />} />
           <Route path=":id" element={<DisplayProduct />} />
         </Route>
+          <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );
