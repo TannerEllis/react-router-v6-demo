@@ -16,7 +16,7 @@ function Search() {
             class="search-bar"
             placeholder="Product Search"
           />
-          <button type="submit" class="searchButton">
+          <button type="submit" class="search-button">
             <img src="https://img.icons8.com/ios/50/000000/search--v4.png" />
           </button>
         </div>
@@ -31,6 +31,7 @@ function Search() {
             <p>{product.name}</p>
             <p>{product.description}</p>
             <p>{product.price}</p>
+            <img src={product.image}/>
           </div>
         ))}
       </div>

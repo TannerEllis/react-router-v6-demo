@@ -5,12 +5,12 @@ import { useNavigate } from "react-router-dom";
 function ProductList() {
   const navigate = useNavigate();
   return (
-    <div className="listOfProducts">
-      <div className="productsList">
+    <div className="product-list">
+      <div className="products-list">
         {TestData.map((product) => {
           return (
             <div
-              className="productDisplay"
+              className="product-display"
               onClick={() => {
                 navigate(`/products/${product.id}`);
               }}
