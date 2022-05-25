@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function AddProduct() {
   return (
-    <div>AddProduct</div>
-  )
+    <div className="listOfProducts">
+      <h1>Add Product</h1>
+    </div>
+  );
 }
 
-export default AddProduct
+export default AddProduct;

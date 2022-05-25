@@ -1,13 +1,22 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
-    let navigate = useNavigate()
+  let navigate = useNavigate();
   return (
-    <div>
-        <button onClick={navigate('/home')}>Login</button>
+    <div className="login-body">
+      <div className="login-container">
+        <button
+          className="login-button"
+          onClick={() => {
+            navigate("/home");
+          }}
+        >
+          Login
+        </button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
