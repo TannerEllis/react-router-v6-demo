@@ -7,7 +7,7 @@ function Nav() {
       <nav>
         <Link to="/home"> Home </Link>
         <Link to="/products/search"> Products</Link>
-        <Link to="/add"> Add </Link>
+        <Link to="/products/add"> Add </Link>
       </nav>
     </div>
   );

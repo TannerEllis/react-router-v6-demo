@@ -9,7 +9,6 @@ function Products() {
         <Link to="/products/list"> Product List </Link>
         <Link to="/products/add"> Add </Link>
       </div>
-
       <Outlet />
     </div>
   );
