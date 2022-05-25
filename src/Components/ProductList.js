@@ -16,7 +16,7 @@ function ProductList() {
               }}
             >
               <h1>{product.name}</h1>
-              <p>{product.description}</p>
+              <h3>{product.description}</h3>
               <p>${product.price}</p>{" "}
               <img src={product.image}/>
             </div>

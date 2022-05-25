@@ -28,8 +28,8 @@ function Search() {
           }
         }).map((product, i) => (
           <div className="product-search" key={i}>
-            <p>{product.name}</p>
-            <p>{product.description}</p>
+            <h1>{product.name}</h1>
+            <h2>{product.description}</h2>
             <p>{product.price}</p>
             <img src={product.image}/>
           </div>
